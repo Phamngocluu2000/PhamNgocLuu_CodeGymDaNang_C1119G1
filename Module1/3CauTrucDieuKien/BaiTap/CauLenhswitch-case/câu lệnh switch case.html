@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<br>
+<input type="text" placeholder="nhap thang " id="num1">
+<button onclick="a()">tính số ngày</button>
+<br><br>
+<script>
+    function a() {
+        month = document.getElementById("num1").value * 1
+        switch (month) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 12:
+                alert(" tháng có 31 ngày ");
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                alert(" tháng có 30 ngày ");
+                break;
+            case 2:
+                alert(" tháng có 28 hoăc 29 ngày");
+                break;
+            default:
+                alert("k tồn tại tháng này ");
+        }
+
+
+    }
+</script>
+</body>
+</html>
