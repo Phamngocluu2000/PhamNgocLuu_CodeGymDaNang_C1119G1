@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+​
+<script>
+    var ketQua = "<table border=\"1px\">";
+    for (var i = 1; i <= 9; i++) {
+        ketQua += "<tr>";
+        for (var j = 2; j <= 9; j++) {
+            var o = j + " x " + i + " = " + (j * i);
+            ketQua += "<td>" +o + "</td>";
+        }
+        ketQua += "</tr>";
+    }
+    ketQua += "</table>";
+    document.write(ketQua);
+</script>
+</body>
