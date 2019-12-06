@@ -17,6 +17,7 @@
     var typeRoom = "Business";
     var rent = 10;
     var typeServices = "Villa";
+    var monyperdays = 0;
     var choose =prompt(
         "1 .Show Information Customer.\n" +
         "2 .Edit Information Customer.\n" +
@@ -25,7 +26,7 @@
     switch (choose) {
         case "1" :
             alert(
-                'Name Customer: ' + name + '\n' +
+                'Customer Name: ' + name + '\n' +
                 'Email Customer: ' + email + '\n' +
                 'ID Card: ' + ID + '\n' +
                 'Birthday Customer: ' + birthday + '\n' +
@@ -36,13 +37,13 @@
                 'Type Room: ' + typeRoom + '\n' +
                 'RentDays: ' + rent + '\n' +
                 'Type Service: ' + typeServices + '\n'
-        )
+            )
             ;
             break;
         case  "2":
             let chooseEdit = prompt(
                 "choose Information customer you Want Edit : \n" +
-                '1.Name Customer: ' + name + '\n' +
+                '1.Customer Name: ' + name + '\n' +
                 '2.Email Customer: ' + email + '\n' +
                 '3.ID Card: ' + ID + '\n' +
                 '4.Birthday Customer: ' + birthday + '\n' +
@@ -53,7 +54,8 @@
                 '9.Type Room: ' + typeRoom + '\n' +
                 '10.RentDays: ' + rent + '\n' +
                 '11.Type Service: ' + typeServices + '\n'
-        );
+            );
+            break;
             switch (chooseEdit) {
                 case "1":
                     name = prompt("enter name you want edit :");
@@ -89,11 +91,11 @@
                     typeServices = prompt("enter typeservices want edit :");
                     break;
                 default :
-                alert("Fail!!!");
+                    alert("Fail!!!");
                     break;
             }
             alert(
-                'Name Customer: ' + name + '\n' +
+                'Customer Name: ' + name + '\n' +
                 'Email Customer: ' + email + '\n' +
                 'ID Card: ' + ID + '\n' +
                 'Birthday Customer: ' + birthday + '\n' +
@@ -105,11 +107,55 @@
                 'RentDays: ' + rent + '\n' +
                 'Type Service: ' + typeServices + '\n'
             )
+            break;
+        case "3":
+            let monyperdays= 0;
+            if (typeServices==="Villa"){
+                monyperdays=500;
+            }else if (typeServices==="house"){
+                monyperdays=300;
+            }else {
+                monyperdays=100;
+            }
+            let Discountcondition=0;
+            let currentYear = new Date().getFullYear();
+            let birthday3 = new Date(birthday).getFullYear();
+            let ageCustomer = currentYear - birthday3;
+            if (address==="Đà Nẵng"){
+                Discountcondition+=20;
+            }
+            else if (ageCustomer>30){
+                Discountcondition+=1;
+            }
+            else  if (address==="Huế"){
+                Discountcondition+=10;
+            }else if (address==="quảng Nam"){
+                Discountcondition+=5;
+            }
+            if (rent >7){
+                Discountcondition+=30;
+            }else if (rent >5){
+                Discountcondition+=20;
+            }else if (rent >2){
+                Discountcondition+=10;
+            }
+            if (typeCustomer==="Diamond"){
+                Discountcondition+=15;
+            }else if (typeCustomer==="Platium"){
+                Discountcondition+=10;
+            }else if (typeCustomer==="Gold"){
+                Discountcondition+=5;
+            }else if (typeCustomer==="Silver"){
+                Discountcondition+=2;
+            }
+            let totalphays= monyperdays * rent*(1-discount/100);
+            totalphays=totalphays-Discountcondition;
+            alert("total pays after Discount condition:"+totalphays);
+            break;
+        default:
+            alert("Fail!!!");
+            break;
     }
-
-
-
-
 </script>
 </body>
 </html>
