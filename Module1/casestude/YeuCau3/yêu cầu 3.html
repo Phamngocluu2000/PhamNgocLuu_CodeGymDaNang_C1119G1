@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YeuCau3</title>
+</head>
+<body>
+<script>
+    let checkvalidate =true;
+    let email;
+    let birthday;
+    // var name = prompt("Enter Name Customer: ");
+    // var ID = prompt("Enter ID Card Customer: ");
+    // var birthday = prompt("Enter Birthday Customer: ");
+    do {
+        let birthday = prompt("Enter Birthday Customer: ");
+        if (birthday.charAt(2)!=='/'||birthday.charAt(5)!=='/'){
+            alert("birthday is invalid !!! please try again");
+            continue;
+        }
+        let day =birthday.substring(0,2);
+        let month =birthday.substring(3,5);
+        let year = birthday.substring(6,10);
+        if (!isNaN(day)&&!isNaN(month)&&!isNaN(year)){
+            day=number .parseFloat(day);
+            month=number.parseFloat(month);
+            year=number.parseFloat(year);
+            if (number.isInteger(day)&&number.isInteger(month)&&number.isInteger(year)){
+                if (day>0&&day<32&&month<13&&month>0&&year>=1960&&year>=2019){
+                    checkvalidate=true;
+                }
+            }
+
+        }
+    }while (!checkvalidate);
+    do {
+        checkvalidate = true;
+        let emailcustomer = prompt("Enter Email Customer: ");
+        let countdoc=0;
+        let countat=0;
+        for (i=0;i<email.length;i++);{
+            if (email.charAt(i)==="@"){
+                countat++;
+            }
+            if (email.charAt(i)==="."){
+                countdoc++;
+            }
+        }
+        if (countat !==1||countdoc<1){
+            checkvalidate = false;
+            alert("email is invalid !!! please try again");
+        }
+    }while (!checkvalidate);
+
+    // var address = prompt("Enter Address Customer: ");
+    // var typeCustomer = prompt("Enter Type Customer: ");
+    // var discount = prompt("Enter Discount: ");
+    // var noa = prompt("Enter Number Of Accompanying: ");
+    // var typeRoom = prompt("Enter Type Room: ");
+    // var rent = prompt("Enter Rent Day: ");
+    // var typeServices = prompt("Please choose servies you want: " +
+        alert(
+            // 'Name Customer: ' + name + '\n' +
+            " Email Customer: " + emailcustomer+
+            // 'ID Card: ' + ID + '\n' +
+            'Birthday Customer: ' + birthday 
+            // 'Address Customer: ' + address + '\n' +
+            // 'Type Customer: ' + typeCustomer + '\n' +
+            // 'Discount: ' + discount + '\n' +
+            // 'Number Of Accompanying: ' + noa + '\n' +
+            // 'Type Room: ' + typeRoom + '\n' +
+            // 'RentDays: ' + rent + '\n' +
+            // 'Type Service: ' + typeServices + '\n'+
+        );
+</script>
+</body>
+</html>
