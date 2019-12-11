@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec1e8f3a-7bb3-407f-8021-14e6b3a5885e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../5Mang/BaiTap/TicTacToe/tic tac toe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5Mang/ThucHanh/TaoBanCoCaroDonGian/tạo bàn cờ caro .html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chuyển đổi giữa feet và meters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestude/yeuCau4/yeucau4 task2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestude/yeuCau4/yêu cau4 task1.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\CodeGym\Module1\6Ham\BaiTap\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UnO1oSA7wSJxMFfNoQLeA7sLFg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../casestude/yeuCau4" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CodeGym\Module1\casestude\yeuCau4" />
+      <recent name="C:\CodeGym\Module1\5Mang\BaiTap\TicTacToe" />
+      <recent name="C:\CodeGym\Module1\5Mang\ThucHanh\TaoBanCoCaroDonGian" />
+      <recent name="C:\CodeGym\Module1\6Ham\BaiTap" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec1e8f3a-7bb3-407f-8021-14e6b3a5885e" name="Default Changelist" comment="" />
+      <created>1575988679530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575988679530</updated>
+      <workItem from="1575988680780" duration="7892000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="282" key="FileChooserDialogImpl" timestamp="1576048920689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576048920689" />
+    <state x="616" y="246" key="run.anything.popup" timestamp="1576046686988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="246" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576046686988" />
+  </component>
+</project>

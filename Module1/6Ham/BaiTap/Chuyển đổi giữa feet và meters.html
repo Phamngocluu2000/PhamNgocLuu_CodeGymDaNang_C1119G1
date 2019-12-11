@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ft-Mt Converter</title>
+</head>
+<fieldset>
+    Amount: <input type="text" id="inputAmount" placeholder="Input Amount"><br>
+    From Unit: <select id="fromUnit">
+    <option value="ft">Feet</option>
+    <option value="mt">Meter</option>
+</select>
+    To Unit: <select id="toUnit">
+    <option value="ft">Feet</option>
+    <option value="mt">Meter</option>
+</select>
+    <button onclick="myConverter();">Convert</button>
+    <p><b>Amount Converted: <span id="convertedAmount"></span></b></p>
+</fieldset>
+<body>
+<script>
+    function myConverter() {
+        let amount = document.getElementById("inputAmount").value;
+        let fromUnit = document.getElementById("fromUnit").value;
+        let toUnit = document.getElementById("toUnit").value;
+        let ftConverter = 0.305*amount;
+        let mtConverter = amount/3.279;
+        if (amount < 0) {
+            document.getElementById("convertedAmount").innerHTML = "Wrong Input Value, Retry Again!!!";
+        } else {
+            if (fromUnit === 'ft' && toUnit === 'ft') {
+                document.getElementById("convertedAmount").innerHTML = amount + " feet";
+            }
+            if (fromUnit === 'mt' && toUnit === 'mt') {
+                document.getElementById("convertedAmount").innerHTML = amount + " meters";
+            }
+            if (fromUnit === 'ft' && toUnit === 'mt') {
+                document.getElementById("convertedAmount").innerHTML = ftConverter + " meters";
+            }
+            if (fromUnit === 'mt' && toUnit === 'ft') {
+                document.getElementById("convertedAmount").innerHTML = mtConverter + " feet";
+            }
+        }
+    }
+</script>
+</body>
+</html>
