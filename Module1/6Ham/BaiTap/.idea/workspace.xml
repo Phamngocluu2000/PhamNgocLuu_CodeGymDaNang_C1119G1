@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec1e8f3a-7bb3-407f-8021-14e6b3a5885e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../5Mang/BaiTap/TicTacToe/tic tac toe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5Mang/ThucHanh/TaoBanCoCaroDonGian/tạo bàn cờ caro .html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chuyển đổi giữa feet và meters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../casestude/yeuCau4/yeucau4 task2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../casestude/yeuCau4/yêu cau4 task1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuyenTapTaoVaSuDungHam01/bai tap 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chuyển đổi giữa feet và meters.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfdf.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../casestude/yeuCau4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,10 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CodeGym\Module1\6Ham\BaiTap" />
+      <recent name="C:\CodeGym\Module1\6Ham\BaiTap\LuyenTapTaoVaSuDungHam01" />
       <recent name="C:\CodeGym\Module1\casestude\yeuCau4" />
       <recent name="C:\CodeGym\Module1\5Mang\BaiTap\TicTacToe" />
       <recent name="C:\CodeGym\Module1\5Mang\ThucHanh\TaoBanCoCaroDonGian" />
-      <recent name="C:\CodeGym\Module1\6Ham\BaiTap" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -79,7 +80,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575988679530</updated>
-      <workItem from="1575988680780" duration="7892000" />
+      <workItem from="1575988680780" duration="9367000" />
+      <workItem from="1576150708282" duration="3410000" />
     </task>
     <servers />
   </component>
@@ -87,10 +89,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="282" key="FileChooserDialogImpl" timestamp="1576048920689">
+    <state x="740" y="282" key="FileChooserDialogImpl" timestamp="1576152138389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576048920689" />
+    <state x="740" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576152138389" />
     <state x="616" y="246" key="run.anything.popup" timestamp="1576046686988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
