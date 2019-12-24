@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec1e8f3a-7bb3-407f-8021-14e6b3a5885e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LuyenTapTaoVaSuDungHam01/bai tap 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai tap1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chuyển đổi giữa feet và meters.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfdf.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +78,12 @@
       <updated>1575988679530</updated>
       <workItem from="1575988680780" duration="9367000" />
       <workItem from="1576150708282" duration="3410000" />
+      <workItem from="1576842254790" duration="52000" />
+      <workItem from="1576842345848" duration="23000" />
+      <workItem from="1576987519933" duration="603000" />
+      <workItem from="1576989937650" duration="566000" />
+      <workItem from="1576990527614" duration="36000" />
+      <workItem from="1576990580921" duration="189000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> ứng dugj máy tính </title>
+</head>
+<body>
+
+<input type="text" placeholde="nhap so a" id="num1">
+<input type="text" placeholde="nhập so b" id="num2">
+<button value="+" onclick="f('+')">(+)</button>
+<button valua="-" onclick="f('-')">(-)</button>
+<button value="*" onclick="f('*')">(*)</button>
+<button value="/" onclick="f('/')">(/)</button>
+<div>
+    <p id="show"></p>
+</div>
+
+<script>
+    let number1 = document.getElementById("num1");
+    let number2 = document.getElementById("num2");
+
+    function f(E) {
+        document.getElementById("show").innerHTML = "kết quả :"  + eval(number1.value +E+ number2.value);
+    }
+</script>
+
+</body>
+</html>
