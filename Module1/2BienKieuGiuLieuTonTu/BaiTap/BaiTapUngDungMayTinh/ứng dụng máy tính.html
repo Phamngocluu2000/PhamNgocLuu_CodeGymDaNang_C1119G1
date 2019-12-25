@@ -19,11 +19,14 @@
 <script>
     let number1 = document.getElementById("num1");
     let number2 = document.getElementById("num2");
-
+    if (number2 < 0){
+        alert("k thể tính");
+    }
     function f(E) {
-        document.getElementById("show").innerHTML = "kết quả :"  + eval(number1.value +E+ number2.value);
+        alert("kết quả :" + eval((number1.value) + E + (number2.value))) ;
     }
 </script>
 
 </body>
 </html>
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let userName = prompt("sử dụng gói cước gì VNG chọn A ,sử dụng gói cước ASIA chọn B  ", '');
+    if (userName == 'A') {
+        let VNG = parseInt(prompt("NHẬP SÔ NGÀY SỬ DỤNG "));
+        if (VNG < 0) {
+            alert("NHẬP LẠI SỐ NGÀY ");
+        } else {
+            let TIENCUOC = VNG * 145000;
+            alert("SỐ TIỀN CƯỚC LÀ :" + TIENCUOC);
+        }
+    } else if (userName == 'B') {
+        let ASIA=parseInt(prompt("NHẬP SỐ NGÀY SỬ DỤNG  "));
+        if (ASIA<0){
+            alert("NHẬP LẠI SỐ NGÀY ");
+        }else {
+            let TIENCUOC = ASIA * 300000;
+            alert("SỐ TIỀN CƯỚC LÀ : "+TIENCUOC);
+        }
+    } else {
+        alert("GÓI CƯỚC BẠN CHỌN  K PHÙ HỢP ");
+    }
+</script>
+</body>
+</htm</html>
