@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YeuCau1</title>
+</head>
+<body>
+<script>
+    var name = prompt("nhập tên: ");
+    var iD = prompt("nhập số CMND: ");
+    var birthday = prompt("nhập ngày sinh: ");
+    var email = prompt("nhập email: ");
+    var address = prompt("nhập địa chỉ : ");
+    var Customer = prompt("nhập loại customer: ");
+    var discount = prompt("nhập mã giảm giá : ");
+    var amount = prompt("nhập số lượng di kèm : ");
+    var typeRoom = prompt("loại phòng thuê: ");
+    var rent = prompt("nhập ngày thuê : ");
+    var typeServices = prompt("loại dịch vụ : " +
+        "\n 1. Villa" +
+        "\n 2. House" +
+        "\n 3. Room");
+    if (typeServices === "1"){
+        typeServices = 500;
+        let totalPay = typeServices*rent;
+        alert(totalPay+"$");
+    } else if (typeServices === "2"){
+        typeServices = 300;
+        let totalPay=typeServices*rent;
+        alert(totalPay+"$");
+    } else{
+        typeServices = 100;
+        let totalPay=typeServices*rent;
+        alert(totalPay+"$");
+    }
+
+    alert("Name : " + name + "\nID Card : " + iD + "\nBirthday: "
+        + birthday + "\nEmail: " + email + "\nAddress: " + address + "\nType: "
+        + Customer + "\nDiscount: "
+        + discount + "\nNumber Of Accompanying: " + amount + "\nType Room: " + typeRoom + "\nRent Day: " + rent
+        + "\nType Service: " + typeServices + "\ntotalpay: " + totalPay);
+</script>
+</body>
+</html>
