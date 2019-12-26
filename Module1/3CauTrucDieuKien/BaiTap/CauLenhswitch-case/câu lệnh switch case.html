@@ -5,13 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-<br>
-<input type="text" placeholder="nhap thang " id="num1">
-<button onclick="a()">tính số ngày</button>
-<br><br>
+<input type="text" placeholder="nhập tháng" id="num1">
+<button type="button" onclick="MyFunction()">Tính Số Ngày</button>
 <script>
-    function a() {
-        month = document.getElementById("num1").value * 1
+    function MyFunction() {
+       let month = document.getElementById("num1").value*1;
         switch (month) {
             case 1:
             case 3:
@@ -19,21 +17,21 @@
             case 7:
             case 8:
             case 12:
-                alert(" tháng có 31 ngày ");
+                alert(month + "là tháng có 31 ngày ");
                 break;
             case 4:
             case 6:
             case 9:
             case 11:
-                alert(" tháng có 30 ngày ");
+                alert(month + "là tháng có 30 ngày ");
                 break;
             case 2:
-                alert(" tháng có 28 hoăc 29 ngày");
+                alert(month + "là tháng có 28 hoặc 29 ngày ");
                 break;
             default:
-                alert("k tồn tại tháng này ");
-        }
+                alert(month + "không tồn tại tháng này");
 
+        }
 
     }
 </script>

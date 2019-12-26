@@ -20,28 +20,27 @@
         <option value="usd">US Dollar</option>
         <option value="vnd">Viet Nam Dong</option>
     </select>
-    <input type="submit" value="Convert" onclick="myFunction();">
+    <button type="button" onclick="myFunction()">click me!!</button>
+    <div id="demo"></div>
 </fieldset>
 <script>
     function myFunction() {
-        var amount = parseInt(document.getElementById("amountmoney").value);
-        var fromCurrency = document.getElementById("fromCurrency").value;
-        var toCurrency = document.getElementById("toCurrency").value;
+        let amount = document.getElementById("amountmoney").value;
+        let fromCurrency = document.getElementById("fromCurrency").value;
+        let toCurrency = document.getElementById("toCurrency").value;
         let dongConveter = amount / 23000;
         let dollarConverter = amount * 23000;
         if (amount < 0) {
             alert("Please input a positive number motherfucker!!!");
-        }
-        else
-        {
+        } else {
             if (fromCurrency == "vnd" && toCurrency == "vnd" || fromCurrency == "usd" && toCurrency == "usd") {
-                alert("The converted amount is:" + amount);
+                document.getElementById("demo").innerHTML = "The converted amount is" + amount;
             }
             if (fromCurrency == "vnd" && toCurrency == "usd") {
-                alert("The converted amount is: " + dongConveter + " dollars.");
+                document.getElementById("demo").innerHTML="The converted amount is: " + dongConveter;
             }
             if (fromCurrency == "usd" && toCurrency == "vnd") {
-                alert("The converted amount is: " + dollarConverter + " viet nam dongs.");
+                document.getElementById("demo").innerHTML="The converted amount is: " + dollarConverter;
             }
         }
     }
