@@ -5,18 +5,22 @@
     <title>Title</title>
 </head>
 <body>
-​
+​<table border="4">
+    <tr>
+      <th colspan="8" style="color: red">BẢNG CỬU TRƯƠNG</th>
+    </tr>
+</table>
 <script>
-    var ketQua = "<table border=\"1px\">";
+
+    let ketQua = "<table border=\"5px\" style='color:red'" +
+        "cellspacing='8' padding='4'>";
     for (var i = 1; i <= 9; i++) {
         ketQua += "<tr>";
         for (var j = 2; j <= 9; j++) {
             var o = j + " x " + i + " = " + (j * i);
-            ketQua += "<td>" +o + "</td>";
+            ketQua += "<td>" + o + "</td>";
         }
-        ketQua += "</tr>";
     }
-    ketQua += "</table>";
     document.write(ketQua);
 </script>
 </body>

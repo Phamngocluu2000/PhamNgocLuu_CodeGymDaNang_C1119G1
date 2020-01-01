@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YeuCau2</title>
+</head>
+<body>
+<script>
+    let name = prompt("nhập tên: ");
+    let ID = prompt("nhập số CMND: ");
+    let birthday = prompt("nhập ngày sinh: ");
+    let email = prompt("nhập email: ");
+    let address = prompt("nhập địa chỉ : ");
+    let typeCustomer = prompt("nhập loại customer: ");
+    let discount = prompt("nhập mã giảm giá : ");
+    let amount = prompt("nhập số lượng di kèm : ");
+    let typeRoom = prompt("loại phòng thuê: ");
+    let rent = prompt("nhập ngày thuê : ");
+    let typeServices = prompt("loại dịch vụ " +    "\n 1. Villa" +
+        "\n 2. House" +
+        "\n 3. Room");
+      let choose=prompt( "1 .Show Information Customer.\n" +
+          "2 .Edit Information Customer.\n" +
+          "3 .Show the amount to be paid after discount.\n");
+    switch (choose) {
+        case "1" :
+            alert(
+                'Customer Name: ' + name + '\n' +
+                'Email Customer: ' + email + '\n' +
+                'ID Card: ' + ID + '\n' +
+                'Birthday Customer: ' + birthday + '\n' +
+                'Address Customer: ' + address + '\n' +
+                'Type Customer: ' + typeCustomer + '\n' +
+                'Discount: ' + discount + '\n' +
+                'Number Of Accompanying: ' + amount + '\n' +
+                'Type Room: ' + typeRoom + '\n' +
+                'RentDays: ' + rent + '\n' +
+                'Type Service: ' + typeServices + '\n'
+            )
+            ;
+            break;
+        case  "2":
+            let chooseEdit = prompt("choose Information customer you Want Edit : \n" +
+                '1.Customer Name: ' + name + '\n' +
+                '2.Email Customer: ' + email + '\n' +
+                '3.ID Card: ' + ID + '\n' +
+                '4.Birthday Customer: ' + birthday + '\n' +
+                '5.Address Customer: ' + address + '\n' +
+                '6.Type Customer: ' + typeCustomer + '\n' +
+                '7.Discount: ' + discount + '\n' +
+                '8.Number Of Accompanying: ' + amount + '\n' +
+                '9.Type Room: ' + typeRoom + '\n' +
+                '10.RentDays: ' + rent + '\n' +
+                '11.Type Service: ' + typeServices + '\n'
+            );
+            switch (chooseEdit) {
+                case "1":
+                    name = prompt("enter name you want edit :");
+                    break;
+                case "2":
+                    email = prompt("enter email you want edit :");
+                    break;
+                case "3":
+                    ID = prompt("enter id you want edit :");
+                    break;
+                case "4":
+                    birthday = prompt("enter birthday want edit :");
+                    break;
+                case "5":
+                    address = prompt("enter address want edit :");
+                    break;
+                case "6":
+                    typeCustomer = prompt("enter typecustomer want edit :");
+                    break;
+                case "7":
+                    discount = prompt(" enter discount want edit :");
+                    break;
+                case "8":
+                    amount = prompt("enter noa want edit :");
+                    break;
+                case "9":
+                    typeRoom = prompt("ente typeroom want edit :");
+                    break;
+                case "10":
+                    rent = prompt("ente rent want edit :");
+                    break;
+                case "11":
+                    typeServices = prompt("enter typeservices want edit :");
+                    break;
+                default :
+                    alert("Fail!!!");
+                    break;
+            }
+            alert(
+                'Customer Name: ' + name + '\n' +
+                'Email Customer: ' + email + '\n' +
+                'ID Card: ' + ID + '\n' +
+                'Birthday Customer: ' + birthday + '\n' +
+                'Address Customer: ' + address + '\n' +
+                'Type Customer: ' + typeCustomer + '\n' +
+                'Discount: ' + discount + '\n' +
+                'Number Of Accompanying: ' + amount + '\n' +
+                'Type Room: ' + typeRoom + '\n' +
+                'RentDays: ' + rent + '\n' +
+                'Type Service: ' + typeServices + '\n'
+            );
+            break;
+        case "3":
+            let monyperdays= 0;
+            if (typeServices==="Villa"){
+                monyperdays=500;
+            }else if (typeServices==="house"){
+                monyperdays=300;
+            }else {
+                monyperdays=100;
+            }
+            let Discountcondition=0;
+            let currentYear = new Date().getFullYear();
+            let birthday3 = new Date(birthday).getFullYear();
+            let ageCustomer = currentYear - birthday3;
+            if (address==="Đà Nẵng"){
+                Discountcondition+=20;
+            }
+            else if (ageCustomer>30){
+                Discountcondition+=1;
+            }
+            else  if (address==="Huế"){
+                Discountcondition+=10;
+            }else if (address==="quảng Nam"){
+                Discountcondition+=5;
+            }
+            if (rent >7){
+                Discountcondition+=30;
+            }else if (rent >5){
+                Discountcondition+=20;
+            }else if (rent >2){
+                Discountcondition+=10;
+            }
+            if (typeCustomer==="Diamond"){
+                Discountcondition+=15;
+            }else if (typeCustomer==="Platium"){
+                Discountcondition+=10;
+            }else if (typeCustomer==="Gold"){
+                Discountcondition+=5;
+            }else if (typeCustomer==="Silver"){
+                Discountcondition+=2;
+            }
+            let totalphays= monyperdays * rent*(1-discount/100);
+            totalphays=totalphays-Discountcondition;
+            alert("total pays after Discount condition:"+totalphays);
+            break;
+        default:
+            alert("Fail!!!");
+            break;
+    }
+</script>
+</body>
+</html>

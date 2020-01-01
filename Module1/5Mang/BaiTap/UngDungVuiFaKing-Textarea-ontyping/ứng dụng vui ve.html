@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+    <h2>Type anthing slowly</h2>
+    <form name="f">
+        <textarea name="txt" cols="28" rows="4" onkeydown="typeTextarea();"></textarea>
+    </form>
+</center>
+<script>
+    let a=new Array(),n="";a[1]='T';a[2]='Ớ';a[3]=' ';a[4]='T';a[5]='H';a[6]='Í';a[7]='C';a[8]='H';a[9]=' ';a[10]='C';
+    a[11]='Ậ';a[12]='U';a[13]=' ';a[14]='R';a[15]='Ồ';a[16]='I';a[17]=' ';a[18]='Đ';a[19]='Ó';a[20]='!';a[21]='!';a[22]='!';a[23]='!';a[24]='!';a[25]='!';a[26]='!';
+    function typeTextarea(){
+        t = document.f.txt.value;
+        j = t.length;
+        if(j > 0)
+        {
+            for(let i=1; i<=j; i++)
+            {
+                n = n + a[i];
+                if(i===26) {
+                    document.f.txt.value = "";
+                    n = "";
+                }
+            }
+        }
+        document.f.txt.value = n;
+        n="";
+        setTimeout("typeTextarea()", 1);
+        //return false;
+    }
+</script>
+</body>
+</html>
