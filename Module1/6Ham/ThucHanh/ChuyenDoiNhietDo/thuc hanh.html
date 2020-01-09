@@ -7,11 +7,11 @@
 <body>
 <form>
 
-    <input type="text" id="number" placeholder="number">
+    <input type="text" id="number" placeholder="nhập number">
 
-    <button onclick="myFunction()">convert</button>
+    <button onclick="myFunction();return false;">convert</button>
 
-    <p><b>Number of degrees converted: <span id="convertedAmount"></span></b></p>
+    <p><b>Number of degrees converted:s <span id="convertedAmount"></span></b></p>
 
 </form>
 
@@ -20,10 +20,10 @@
 
         let number = document.getElementById("number").value;
 
-        let a =(number-32)/1.8;
+        let number1 = (number - 32) / 1.8;
 
-            document.getElementById("convertedAmount").innerHTML= a ;
-        
+        document.getElementById("convertedAmount").innerText = number1;
+
     }
 
 </script>
