@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1aa28b5-eb1e-4e33-8d46-b8c69a5a6d41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaHinhChuNhat/xây dựng lớp mo ta hình chữ nhật.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaTemperature/Xây dựng lớp mô tả Temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaHinhChuNhat/xzxz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/8LapTrinhHuongDoiTuong2/ThucHanh/LopMoPhongHoatDongCuaDenPin/Xây dựng lớp mô phỏng sự hoạt động của đèn pin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/4CauTrucLap/BaiTap/LuyenTap1/BÀI TẬP 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/4CauTrucLap/BaiTap/LuyenTap1/BÀI TẬP 1.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaTemperature/Xây dựng lớp mô tả Temperature.html">
+        <entry file="file://$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaHinhChuNhat/xzxz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="1224">
+              <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -62,10 +61,13 @@
         <option value="$PROJECT_DIR$/Module1/4CauTrucLap/BaiTap/LuyenTap1/BÀI TẬP 1.html" />
         <option value="$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaHinhChuNhat/xây dựng lớp mo ta hình chữ nhật.html" />
         <option value="$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaTemperature/Xây dựng lớp mô tả Temperature.html" />
+        <option value="$PROJECT_DIR$/Module1/4CauTrucLap/BaiTap/LuyenTap1/bài tập 3.html" />
+        <option value="$PROJECT_DIR$/Module1/8LapTrinhHuongDoiTuong2/ThucHanh/LopMoPhongHoatDongCuaDenPin/Xây dựng lớp mô phỏng sự hoạt động của đèn pin.html" />
+        <option value="$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaHinhChuNhat/xzxz.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -75,7 +77,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,81 +99,13 @@
               <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="1NhapMonLapTrinh" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="1NhapMonLapTrinh" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-              <item name="MoTaThuatToanChuyenDoiTienTe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="2BienKieuGiuLieuTonTu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="2BienKieuGiuLieuTonTu" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="2BienKieuGiuLieuTonTu" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTapChuyenDoiTienTe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="2BienKieuGiuLieuTonTu" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTapUngDungMayTinh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="4CauTrucLap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="4CauTrucLap" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="4CauTrucLap" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-              <item name="HienThiCacSoNguyen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="4CauTrucLap" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-              <item name="LuyenTap1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="4CauTrucLap" type="462c0819:PsiDirectoryNode" />
-              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
@@ -184,52 +117,7 @@
               <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="5Mang" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="5Mang" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-              <item name="TicTacToe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="6Ham" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="6Ham" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="6Ham" type="462c0819:PsiDirectoryNode" />
-              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-              <item name="ChuyenDoiGiuaFeetvaMeters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="6Ham" type="462c0819:PsiDirectoryNode" />
-              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="6Ham" type="462c0819:PsiDirectoryNode" />
-              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
-              <item name="ChuyenDoiNhietDo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
@@ -250,7 +138,28 @@
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="7LapTrinhHuongDoiTuong" type="462c0819:PsiDirectoryNode" />
               <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
-              <item name="XayDungLopMoTaTemperature" type="462c0819:PsiDirectoryNode" />
+              <item name="XayDungLopMoTaHinhChuNhat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="8LapTrinhHuongDoiTuong2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="8LapTrinhHuongDoiTuong2" type="462c0819:PsiDirectoryNode" />
+              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeGym" type="462c0819:PsiDirectoryNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="8LapTrinhHuongDoiTuong2" type="462c0819:PsiDirectoryNode" />
+              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
+              <item name="LopMoPhongHoatDongCuaDenPin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeGym" type="b2602c69:ProjectViewProjectNode" />
@@ -290,13 +199,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaTemperature" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Module1/8LapTrinhHuongDoiTuong2/ThucHanh/LopMoPhongHoatDongCuaDenPin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -306,11 +216,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CodeGym\Module1\8LapTrinhHuongDoiTuong2\ThucHanh\LopMoPhongHoatDongCuaDenPin" />
       <recent name="C:\CodeGym\Module1\7LapTrinhHuongDoiTuong\BaiTap\XayDungLopMoTaTemperature" />
       <recent name="C:\CodeGym\Module1\7LapTrinhHuongDoiTuong\BaiTap\XayDungLopMoTaHinhChuNhat" />
       <recent name="C:\CodeGym\Module1\7LapTrinhHuongDoiTuong\ThucHanh\XayDungLopHinhTron" />
       <recent name="C:\CodeGym\Module1\7LapTrinhHuongDoiTuong\ThucHanh\XayDungLopDate" />
-      <recent name="C:\CodeGym\Module1\7LapTrinhHuongDoiTuong\ThucHanh\FunnyCircles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,16 +252,16 @@
       <workItem from="1578824669933" duration="1995000" />
       <workItem from="1578918908226" duration="1037000" />
       <workItem from="1578964897365" duration="2685000" />
-      <workItem from="1578967603235" duration="2613000" />
+      <workItem from="1578967603235" duration="5019000" />
+      <workItem from="1579573607223" duration="656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28553000" />
+    <option name="totallyTimeSpent" value="31615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35790598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -564,17 +474,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaTemperature/Xây dựng lớp mô tả Temperature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/4CauTrucLap/BaiTap/LuyenTap1/bài tập 3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/8LapTrinhHuongDoiTuong2/ThucHanh/LopMoPhongHoatDongCuaDenPin/Xây dựng lớp mô phỏng sự hoạt động của đèn pin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaHinhChuNhat/xây dựng lớp mo ta hình chữ nhật.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
+        <state relative-caret-position="646">
           <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaTemperature/Xây dựng lớp mô tả Temperature.html">
+    <entry file="file://$PROJECT_DIR$/Module1/7LapTrinhHuongDoiTuong/BaiTap/XayDungLopMoTaHinhChuNhat/xzxz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="1224">
+          <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
         </state>
       </provider>
     </entry>
